@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>House of Zahara</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scroll 001 - She Was Never the Problem</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora&display=swap" rel="stylesheet">
   <style>
     body {
@@ -11,44 +11,84 @@
       background: #0d0d0d;
       color: #fefefe;
       font-family: 'Lora', serif;
+      line-height: 1.6;
     }
-    .scroll-cover {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+    header {
+      padding: 60px 30px 20px;
       text-align: center;
-      background: linear-gradient(to bottom, #000000, #1a1a1a);
-      padding: 30px;
-      border: 2px solid #444;
+      background: #1a1a1a;
     }
-    .scroll-cover h1 {
+    h1 {
       font-family: 'Playfair Display', serif;
-      font-size: 3.5em;
       color: #d4af37;
+      font-size: 3em;
       margin-bottom: 10px;
     }
-    .scroll-cover h2 {
-      font-size: 1.3em;
-      font-weight: normal;
-      margin-bottom: 20px;
-      color: #ccc;
+    .scroll-body {
+      padding: 40px 30px;
+      max-width: 800px;
+      margin: auto;
     }
-    .scroll-cover .stamp {
-      margin-top: 30px;
+    .scroll-body p {
+      margin-bottom: 20px;
+      font-size: 1.1em;
+    }
+    audio {
+      display: block;
+      margin: 30px auto;
+      width: 100%;
+      max-width: 600px;
+    }
+    .land-fund {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .donate-button {
+      background: #d4af37;
+      color: #000;
+      padding: 12px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: #111;
       font-size: 0.9em;
-      color: #777;
-      border-top: 1px solid #555;
-      padding-top: 15px;
+      color: #888;
     }
   </style>
 </head>
 <body>
-  <div class="scroll-cover">
+  <header>
     <h1>She Was Never the Problem</h1>
-    <h2>The First Scroll of Zahara Munaï</h2>
-    <div class="stamp">Scroll 001 · Domina SaRa™</div>
-  </div>
+    <p>Scroll 001 · Zahara Munaï</p>
+  </header>
+
+  <section class="scroll-body">
+    <p>I was never too much — I just told the truth. I didn’t want to be hurt. I didn’t want to be unseen. Do you know what that ache really feels like? To be lying next to someone every day… and still feel invisible?</p>
+    <p>To give your heart, your body, your prayers — and still not be chosen? To shrink your light for someone who never even knew how to hold it. I stayed too long in places I should’ve left the first time I felt my soul cry inside my body.</p>
+    <p>I didn’t even really like half the men I gave myself to — I was just trying to be loved. To be accepted. To say I had someone. I thought being loved meant giving my body… my loyalty… my mind. Whole time, it was costing me my soul.</p>
+    <p>This scroll is for the women who stayed too long, hoping love would remember them. It’s for the girls who never learned how to leave — because nobody taught them that saving yourself was holy.</p>
+    <p>I’m still healing. Still learning. Still reclaiming my voice. But now… I remember who I am. I am that queen. That root. That birthright. That fire. That vault. And baby, this time? I ain’t breaking for no one.</p>
+
+    <audio controls>
+      <source src="audio/scroll-001.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <section class="land-fund">
+    <h3>Support the Land Fund</h3>
+    <p>This scroll is part of a sacred mission. Every donation helps fund healing homes, retreats, and safe spaces. If your soul was fed, sow back.</p>
+    <a href="#" class="donate-button">I sow into sacred soil</a>
+  </section>
+
+  <footer>
+    <p>Written by Zahara Munaï · Scroll 001 · All rights reserved.</p>
+  </footer>
 </body>
 </html>
